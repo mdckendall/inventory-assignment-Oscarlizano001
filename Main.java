@@ -3,6 +3,18 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.InputMismatchException;
 
+class Inventory {
+  String product;
+  String serialNum;
+  int price;
+
+  public Inventory(String product, String serialNum, int price) {
+    this.product = product;
+    this.serialNum = serialNum;
+    this.price = price;
+  }
+}
+
 class Main {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
